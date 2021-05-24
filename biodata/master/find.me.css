@@ -1,0 +1,88 @@
+.container {
+    text-align: center;
+    margin: 80px 50px;
+    height: 500px;
+    
+}
+.header {
+    background:linear-gradient(blue, black);
+    min-height: 30px;
+    width: 100%;
+    
+}
+.menu {
+    position: relative;
+    border: 2px solid rgb(59, 59, 99);
+    padding: 0px auto;
+    
+}
+.menu ul li {
+    list-style-type: none;
+    text-align: right;
+    padding: 0px 20px;
+    
+    
+}
+.menu ul li a {
+    padding: 10px 20px;
+    position: relative;
+    text-decoration: none;
+    box-sizing: border-box;
+    color: rgba(63, 248, 239, 0.884);
+    background: linear-gradient(blue, black); 
+    transition:0.2s ease-in-out;
+        
+}
+.content{
+    min-height: 500px;
+    padding: 0px;
+    margin: 0px;
+    background: url(image/space2.jpg);
+    background-size: cover;
+}
+.content img {
+    height: 500px;
+    width: 430px;
+    float: right;
+}
+.jumbotron {
+    width: 100%;
+    padding: 10px 0px;
+    font-family: 'Alfa Slab One', cursive;
+    text-align: center;
+}
+p {
+    color: rgba(47, 211, 223, 0.89);
+    font-size: 20px;
+}
+hr {
+    width: 30%;
+    background-image: linear-gradient(to right, rgba(12, 39, 160, 0.849), rgba(238, 232, 232, 0.959),black);    
+    height: 1px;
+}
+.logo ul {
+    margin: 0px;
+    padding: 0px;
+    top: 50%;
+    left: 50%;
+    display: inline;
+    font-size: 50px;
+}
+.logo ul li {
+    list-style: none;
+    padding: 20px 20px  ;
+    transition: 1s ease-in-out;
+}
+.logo ul li a {
+    width: 10px;
+    height: 80px;
+    color: white; 
+}
+.footer {
+    text-align: center;
+    font-size: 20px;
+    background: linear-gradient(black, blue);
+    color: white;
+    height: auto;
+    
+}
